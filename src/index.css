@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: #f3f4f6; /* light gray */
+    color: #111827; /* gray-900 */
+}
+
+
+nav a button {
+    background: #2563eb; /* blue-600 */
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+nav a button:hover {
+    background: #1d4ed8; /* blue-700 */
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+th, td {
+    padding: 10px 12px;
+}
+
+
+th {
+    background: #f9fafb; /* gray-50 */
+    text-align: left;
+    font-weight: 600;
+}
+
+
+tr:nth-child(even) {
+    background: #f3f4f6; /* zebra */
+}
+
+
+.bg-green-100 {
+    background: #dcfce7 !important;
+}
+
+
+.text-green-600 {
+    color: #16a34a !important;
+}
+
+
+.text-red-600 {
+    color: #dc2626 !important;
+}
+
+
+.text-gray-500 {
+    color: #6b7280 !important;
+}
+
+body { font-family: system-ui; margin: 0; background: #f3f4f6; }
+.menu { display:flex; justify-content:space-between; background:#111827; padding:10px; }
+.menu a { color:white; margin-right:10px; text-decoration:none; }
+.menu a.active { font-weight:bold; text-decoration:underline; }
+.card { background:white; margin:16px; padding:16px; border-radius:12px; }
+.space { display:grid; gap:16px; }
+table { width:100%; border-collapse:collapse; }
+td,th { padding:8px; border-bottom:1px solid #e5e7eb; }
+.mapBlock { margin-top: 16px; }
+.exportBtn { margin-top: 12px; padding: 8px 14px; background:#2563eb; color:white; border:none; border-radius:8px; }
